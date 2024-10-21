@@ -1,0 +1,155 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+/* Resetting default styles and setting global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Styling for the navigation bar */
+.navbar {
+    background: transparent;
+    margin-bottom: -10px;
+    border-bottom: 1px solid gray;
+    width: 80%;
+    justify-content: center;
+}
+
+/* Styling for the logo/image in the navbar */
+.navbar img {
+    margin: 5px 15px 0 10px;
+}
+
+/* Styling for navigation links in the navbar */
+.navbar .nav-item a {
+    font-size: 20px;
+    margin: 5px 0 0 10px;
+    color: black;
+    padding-left: 30px;
+}
+
+/* Hover effect for navbar links */
+.navbar .navbar-nav .nav-link:hover {
+    background-color: #3fcde9;
+    color: #fff;
+}
+
+/* Styling for fluid container images */
+.container-fluid img {
+    padding: 0;
+    margin-top: 4%;
+}
+
+/* Styling for paragraph #p1 */
+#p1 {
+    font-size: 2.5vw;
+    padding-top: 1%;
+    color: #a3a3a3;
+}
+
+/* Styling for div surrounding paragraph #p1 */
+#p1div {
+    border-left: #08b9e1 5px solid;
+    border-right: #08b9e1 5px solid;
+    width: 90%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Styling for cards in a card group */
+.card-group .card {
+    width: 100%;
+    border: none;
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+}
+
+/* Styling for images inside cards */
+.card-group .card img {
+    max-width: 40%;
+    height: auto;
+    width: 40%;
+}
+
+/* Styling for card titles */
+.card-group .card-title {
+    font-weight: bold;
+    font-size: 2em;
+    word-wrap: normal;
+}
+
+/* Styling for specific card title */
+.card:nth-child(1) .card-title {
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+}
+
+/* Styling for buttons */
+.btn {
+    min-width: 50%;
+    height: 80px;
+    background: linear-gradient(180deg, rgba(8,185,225,1) 0%, rgba(105,87,164,1) 100%);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+/* Styling for links inside buttons */
+.btn a {
+    font-size: 2.5em;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+/* Styling for slogan */
+#slogan {
+    font-size: 4em;
+    font-family: 'Orbitron', sans-serif;
+    color: #08b9e1;
+    text-shadow: 0 3px #dadede;
+}
+
+/* Styling for icons */
+i {
+    font-size: 80px;
+    color: #08b9e1;
+}
+
+/* Styling for specific icon */
+.bi-ev-front {
+    color: rebeccapurple;
+    margin-right: 10px;
+}
+
+/* Styling for paragraph #p2 */
+#p2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #08b9e1;
+}
+
+/* Styling for paragraph #p3 */
+#p3 {
+    font-size: 20px;
+}
+
+/* Styling for copyright section */
+#copyright {
+    margin-top: 50px;
+}
+
+/* Styling for copyright link */
+#copyright a {
+    color: #08b9e1;
+}

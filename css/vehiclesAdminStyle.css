@@ -1,0 +1,160 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+/* Resetting and basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Navbar styling */
+.navbar {
+    background: transparent;
+    margin-bottom: -10px;
+    border-bottom: 1px solid gray;
+    width: 60%;
+    justify-content: center;
+}
+
+/* Navbar image styling */
+.navbar img {
+    margin: 5px 15px 0 10px;
+}
+
+/* Navbar link styling */
+.navbar .nav-item a {
+    font-size: 20px;
+    margin: 5px 0 0 10px;
+    color: black;
+    padding-left: 30px;
+}
+
+/* Navbar link hover effect */
+.navbar .navbar-nav .nav-link:hover {
+    background-color: #3fcde9;
+    color: #fff;
+}
+
+/* Header styling */
+.h1 {
+    font-size: 2em;
+}
+
+/* Container styling */
+.c {
+    background-color: #08b9e1;
+    max-width: 80%;
+    justify-content: center;
+    border-left: #08b9e1 solid 5px;
+    border-right: #08b9e1 solid 5px;
+    border-radius: 10px;
+}
+
+/* Links inside container styling */
+.c a {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 5% 10px 0 0;
+}
+
+/* Link hover effect inside container */
+.c a:hover {
+    color: black;
+}
+
+/* Dropdown item styling */
+.dropdown .dropdown-item {
+    color: black;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+/* Additional styling for specific column */
+.col-xl-8 {
+    border-left: #a3a3a3 dashed 2px;
+}
+
+/* Card title styling */
+.card .card-title {
+    font-family: Orbitron, sans-serif;
+    font-size: 2.5em;
+}
+
+/* Additional class styling */
+.nba {
+    font-size: 15px;
+    color: gray;
+}
+
+/* Styling for specific element */
+.pr {
+    font-size: 3vw;
+    color: black;
+    border: #08b9e1 solid 2px;
+    border-radius: 20px;
+    width: 55%;
+}
+
+/* Styling for card links */
+.card a {
+    font-size: 2.5em;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    color: #08b9e1;
+    text-decoration: none;
+}
+
+/* Card link hover effect */
+.card a:hover {
+    text-decoration: underline;
+}
+
+/* Duplicate card title styling */
+.card .card-title {
+    font-size: 2.5em;
+}
+
+/* Button styling inside card */
+.card .btn {
+    font-size: 2em;
+    color: black;
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* Button hover effect inside card */
+.card .btn:hover {
+    color: #08b9e1;
+}
+
+/* Additional link styling inside card */
+.card .editDetailsLink {
+    font-size: 2em;
+    margin-left: 10px;
+}
+
+/* Additional link hover effect inside card */
+.card .editDetailsLink:hover {
+    text-decoration: none;
+    color: black;
+}
+
+/* Copyright text styling */
+#copyright {
+    margin-top: 30px;
+}
+
+/* Copyright link styling */
+#copyright a {
+    font-size: 1em;
+    color: #08b9e1;
+}
+
+/* Additional styling for specific forms */
+.addVehicleForm, .deleteVehicleForm, .editDetailsForm .btn {
+    font-size: 20px;
+}

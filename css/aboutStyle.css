@@ -1,0 +1,126 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+/* Resetting default styles and setting global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Styling for the navigation bar */
+.navbar {
+    background: transparent;
+    margin-bottom: -10px;
+    border-bottom: 1px solid gray;
+    width: 80%;
+    justify-content: center;
+}
+
+/* Styling for the logo/image in the navbar */
+.navbar img {
+    margin: 5px 15px 0 10px;
+}
+
+/* Styling for navigation links in the navbar */
+.navbar .nav-item a {
+    font-size: 20px;
+    margin: 5px 0 0 10px;
+    color: black;
+    padding-left: 30px;
+}
+
+/* Hover effect for navbar links */
+.navbar .navbar-nav .nav-link:hover {
+    background-color: #08b9e1;
+    color: #fff;
+}
+
+/* Styling for main title */
+#title {
+    padding-top: 60px;
+    font-size: 3em;
+}
+
+/* Styling for cards */
+.card-group .card {
+    width: 100%;
+    color: white;
+    background-color: #4ab9d7;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    margin-top: 30px;
+    padding: 0 10px 0 10px;
+}
+
+/* Styling for card titles */
+.card-group .card-title {
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+/* Styling for card text */
+.card-group .card-text {
+    margin-top: 30px;
+    font-size: 1em;
+}
+
+/* Container styling */
+.container {
+    margin-top: 8%;
+    border-bottom: 1px #a3a3a3 solid;
+    margin-bottom: -5%;
+}
+
+/* Styling for environmental title */
+#envtitle {
+    font-size: 3em;
+    color: yellowgreen;
+}
+
+/* Styling for image */
+#img1 {
+    margin-left: 5%;
+}
+
+/* Styling for second about section */
+#aboutsect2 {
+    border-bottom: #a3a3a3 2px solid;
+}
+
+/* Styling for contact info title */
+#contactinfotitle {
+    font-size: 2em;
+    color: #3fcde9;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+
+/* Styling for contact info content */
+#contactinfocontent {
+    margin-bottom: 10px;
+}
+
+/* Styling for contact info links */
+#contactinfocontent a {
+    color: #08b9e1;
+}
+
+/* Styling for headers */
+.col-xl-6 h1 {
+    font-size: 30px;
+}
+
+/* Styling for copyright section */
+#copyright {
+    margin-top: 30px;
+}
+
+/* Styling for copyright link */
+#copyright a {
+    color: #08b9e1;
+}

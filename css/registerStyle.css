@@ -1,0 +1,113 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif; /* Setting default font */
+}
+
+/* Styling the body */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("../images/background.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+/* Media query for medium-sized screens and above */
+@media (max-width: 1200px) {
+    body {
+        background: url("../images/background-medium.jpg") no-repeat center center / cover; /* Changing background to custom image */
+    }
+}
+
+/* Styling the wrapper div */
+.wrapper {
+    width: 480px;
+    background: transparent;
+    backdrop-filter: blur(5px); /* Adding a blur effect to the background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: black;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+/* Styling the header */
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+/* Styling the input boxes */
+.wrapper .input-box {
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+/* Styling the input fields */
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+    padding: 20px 45px 20px 20px;
+}
+
+/* Styling the input placeholders */
+.input-box input::placeholder {
+    color: rgb(79,199,224);
+}
+
+/* Styling the icons */
+.input-box .bi-person,
+.input-box .bi-person-fill,
+.input-box .bi-envelope-fill,
+.input-box .bi-lock,
+.input-box .bi-lock-fill,
+.input-box .bi-telephone {
+    position: absolute;
+    right: 60px;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+/* Styling the login button */
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+}
+
+/* Styling the back to login link */
+.back-login {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.back-login a {
+    color: rgb(79,199,224);
+    text-decoration: none;
+}
+
+/* Styling the back to login link when hovered */
+.back-login p a:hover {
+    text-decoration: underline;
+}

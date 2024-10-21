@@ -1,0 +1,105 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+/* Resetting default styles and setting global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Styling the body background */
+body {
+    background: url("../images/background-medium.jpg") no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+/* Styling for the navigation bar */
+.navbar {
+    background: transparent;
+    margin-bottom: -10px;
+    border-bottom: 1px solid gray;
+    width: 60%;
+    justify-content: center;
+}
+
+/* Styling for the logo/image in the navbar */
+.navbar img {
+    margin: 5px 15px 0 10px;
+}
+
+/* Styling for navigation links in the navbar */
+.navbar .nav-item a {
+    font-size: 20px;
+    margin: 5px 0 0 10px;
+    color: black;
+    padding-left: 30px;
+}
+
+/* Hover effect for navbar links */
+.navbar .navbar-nav .nav-link:hover {
+    background-color: #3fcde9;
+    color: #fff;
+}
+
+/* Styling for headings */
+.h1 {
+    font-size: 2em;
+}
+
+/* Styling for container */
+.c {
+    background-color: #f0f2f5;
+    max-width: 80%;
+    justify-content: center;
+    border-left: #08b9e1 solid 5px;
+    border-right: #08b9e1 solid 5px;
+    border-radius: 10px;
+}
+
+/* Styling for links inside container */
+.c a {
+    color: #08b9e1;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-decoration: none;
+    margin: 2% 0;
+}
+
+/* Hover effect for links inside container */
+.c a:hover {
+    color: black;
+}
+
+/* Styling for headings 2 inside container */
+.c h2 {
+    font-size: 3vw;
+    margin: 4% 0 4% 0;
+    color: #08b9e1;
+}
+
+/* Styling for dropdown menu items */
+.dropdown .dropdown-item {
+    color: black;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+/* Styling for forms and buttons */
+.addBrandForm, .deleteBrandForm .btn {
+    font-size: 15px;
+}
+
+/* Styling for copyright section */
+#copyright {
+    margin-top: 30px;
+}
+
+/* Styling for copyright link */
+#copyright a {
+    font-size: 1em;
+    color: #08b9e1;
+}

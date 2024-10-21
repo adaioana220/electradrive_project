@@ -1,0 +1,133 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+/* Resetting default styles and setting global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Styling for the navigation bar */
+.navbar {
+    background: transparent;
+    margin-bottom: -10px;
+    border-bottom: 1px solid gray;
+    width: 80%;
+    justify-content: center;
+}
+
+/* Styling for the logo/image in the navbar */
+.navbar img {
+    margin: 5px 15px 0 10px;
+}
+
+/* Styling for navigation links in the navbar */
+.navbar .nav-item a {
+    font-size: 20px;
+    margin: 5px 0 0 10px;
+    color: black;
+    padding-left: 30px;
+}
+
+/* Hover effect for navbar links */
+.navbar .navbar-nav .nav-link:hover {
+    background-color: #3fcde9;
+    color: #fff;
+}
+
+/* Styling for container */
+.c {
+    background-color: #f0f2f5;
+    max-width: 80%;
+    justify-content: center;
+    border-left: #08b9e1 solid 5px;
+    border-right: #08b9e1 solid 5px;
+    border-radius: 10px;
+}
+
+/* Styling for rows inside container */
+.c .row {
+    margin-left: 3%;
+    border-bottom: lightgrey solid 2px;
+    width: 90%;
+}
+
+/* Styling for heading 1 inside container */
+.c h1 {
+    font-size: 3vw;
+    margin: 4% 0 4% 0;
+    color: #08b9e1;
+}
+
+/* Styling for paragraphs inside container */
+.c p {
+    margin-left: 10%;
+    font-size: 2vw;
+}
+
+/* Styling for links inside container */
+.c a {
+    font-size: 2vw;
+    color: #08b9e1;
+}
+
+/* Styling for specific links */
+#editDetailsLink, #handleLogoutLink {
+    margin: 0 12px;
+}
+
+/* Styling for forms */
+form {
+    font-size: 2vw;
+}
+
+/* Styling for input fields */
+input {
+    border-radius: 10px;
+    border: 1px solid #08b9e1;
+}
+
+/* Styling for specific input fields */
+#name, #surname, #email, #phone,#currentPassword, #newPassword {
+    margin-bottom: 10px;
+}
+
+/* Styling for buttons */
+button {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #08b9e1;
+    padding: 0 5px 30px;
+    font-weight: bold;
+}
+
+/* Styling for responsive tables */
+.table-responsive {
+    font-size: 2vw;
+    margin-bottom: 5%;
+}
+
+/* Styling for table headers */
+.table .th {
+    align-content: center;
+    --bs-table-bg: #f0f2f5;
+}
+
+/* Styling for table cells */
+.table td {
+    --bs-table-bg: #f0f2f5;
+}
+
+/* Styling for copyright section */
+#copyright {
+    margin-top: 50px;
+}
+
+/* Styling for copyright links */
+#copyright a {
+    color: #08b9e1;
+}
